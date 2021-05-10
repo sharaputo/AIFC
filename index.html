@@ -228,17 +228,15 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="20px"
                   height="20px"
-                  fill="none"
                   viewBox="0 0 20 20"
                 >
                   <defs>
                     <path
                       id="icon_arrow"
-                      fill="#fff"
                       d="M8.502 1.339a1.114 1.114 0 0 0 .019 1.57L13.9 8.168H1.07C.476 8.167 0 8.659 0 9.265v1.466c0 .61.476 1.102 1.07 1.102H13.9L8.52 17.09a1.121 1.121 0 0 0-.018 1.571l.994 1.017c.415.43 1.094.43 1.512 0l8.678-8.904a1.115 1.115 0 0 0 0-1.552l-8.678-8.9a1.048 1.048 0 0 0-1.512 0L8.502 1.34z"
                     />
                   </defs>
-                  <use href="#icon_arrow" />
+                  <use href="#icon_arrow" fill="#ffffff" />
                 </svg>
               </button>
               <button class="splide__arrow splide__arrow--next">
@@ -249,7 +247,7 @@
                   fill="none"
                   viewBox="0 0 20 20"
                 >
-                  <use href="#icon_arrow" />
+                  <use href="#icon_arrow" fill="#ffffff" />
                 </svg>
               </button>
             </div>
@@ -388,7 +386,7 @@
       </section>
       <section class="figures">
         <div class="container">
-          <div class="grid figures__body">
+          <div class="grid">
             <div class="grid__header">
               <div class="grid__tile ibg">
                 <picture>
@@ -409,7 +407,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/figures/photo-06-1x.jpg"
                     srcset="
                       img/figures/photo-06-2x.jpg 2x,
@@ -454,7 +451,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/figures/photo-01-1x.jpg"
                     srcset="
                       img/figures/photo-01-2x.jpg 2x,
@@ -500,7 +496,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/figures/photo-02-1x.jpg"
                     srcset="
                       img/figures/photo-02-2x.jpg 2x,
@@ -544,7 +539,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/figures/photo-03-1x.jpg"
                     srcset="
                       img/figures/photo-03-2x.jpg 2x,
@@ -592,7 +586,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/figures/photo-04-1x.jpg"
                     srcset="
                       img/figures/photo-04-2x.jpg 2x,
@@ -629,7 +622,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/figures/photo-05-1x.jpg"
                     srcset="
                       img/figures/photo-05-2x.jpg 2x,
@@ -1175,7 +1167,7 @@
       </section>
       <section class="business">
         <div class="container">
-          <div class="grid business__body">
+          <div class="grid">
             <div class="grid__header">
               <div class="grid__tile ibg">
                 <picture>
@@ -1196,7 +1188,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/business/photo-09-1x.jpg"
                     srcset="
                       img/business/photo-09-2x.jpg 2x,
@@ -1218,7 +1209,7 @@
             <ul class="grid__list">
               <li class="grid__item ibg"></li>
               <li class="grid__item ibg"></li>
-              <li class="grid__item ibg">
+              <li class="grid__item grid__item--link ibg">
                 <picture>
                   <source
                     srcset="
@@ -1237,7 +1228,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/business/photo-01-1x.jpg"
                     srcset="
                       img/business/photo-01-2x.jpg 2x,
@@ -1248,8 +1238,20 @@
                     draggable="false"
                   />
                 </picture>
+                <h3 class="business__title">Brokerage</h3>
+                <button class="business__modal">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="#icon_arrow" fill="#ffffff" />
+                  </svg>
+                </button>
               </li>
-              <li class="grid__item ibg">
+              <li class="grid__item grid__item--link ibg">
                 <picture>
                   <source
                     srcset="
@@ -1268,7 +1270,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/business/photo-02-1x.jpg"
                     srcset="
                       img/business/photo-02-2x.jpg 2x,
@@ -1279,10 +1280,23 @@
                     draggable="false"
                   />
                 </picture>
+                <h3 class="business__title business__title--blue">
+                  Asset<br />Management
+                </h3>
+                <button class="business__modal">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="#icon_arrow" fill="#002554" />
+                  </svg>
+                </button>
               </li>
 
               <li class="grid__item"></li>
-              <li class="grid__item ibg">
+              <li class="grid__item grid__item--link ibg">
                 <picture>
                   <source
                     srcset="
@@ -1301,7 +1315,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/business/photo-03-1x.jpg"
                     srcset="
                       img/business/photo-03-2x.jpg 2x,
@@ -1312,9 +1325,36 @@
                     draggable="false"
                   />
                 </picture>
+                <h3 class="business__title">Capital<br />Markets</h3>
+                <button class="business__modal">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="#icon_arrow" fill="#ffffff" />
+                  </svg>
+                </button>
               </li>
-              <li class="grid__item grid__item--white ibg"></li>
-              <li class="grid__item ibg">
+              <li class="grid__item grid__item--link grid__item--white ibg">
+                <h3 class="business__title business__title--blue">
+                  Private<br />Banking
+                </h3>
+                <button class="business__modal">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="#icon_arrow" fill="#002554" />
+                  </svg>
+                </button>
+              </li>
+              <li class="grid__item grid__item--link ibg">
                 <picture>
                   <source
                     srcset="
@@ -1333,7 +1373,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/business/photo-04-1x.jpg"
                     srcset="
                       img/business/photo-04-2x.jpg 2x,
@@ -1344,9 +1383,21 @@
                     draggable="false"
                   />
                 </picture>
+                <h3 class="business__title">Banking</h3>
+                <button class="business__modal">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="#icon_arrow" fill="#ffffff" />
+                  </svg>
+                </button>
               </li>
 
-              <li class="grid__item ibg">
+              <li class="grid__item grid__item--link ibg">
                 <picture>
                   <source
                     srcset="
@@ -1365,7 +1416,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/business/photo-05-1x.jpg"
                     srcset="
                       img/business/photo-05-2x.jpg 2x,
@@ -1376,9 +1426,36 @@
                     draggable="false"
                   />
                 </picture>
+                <h3 class="business__title business__title--blue">
+                  Islamic<br />Finance
+                </h3>
+                <button class="business__modal">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="#icon_arrow" fill="#002554" />
+                  </svg>
+                </button>
               </li>
-              <li class="grid__item grid__item--green ibg"></li>
-              <li class="grid__item ibg">
+              <li class="grid__item grid__item--link grid__item--green ibg">
+                <h3 class="business__title">Insurance,<br />Reinsurance</h3>
+                <button class="business__modal">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="#icon_arrow" fill="#ffffff" />
+                  </svg>
+                </button>
+              </li>
+              <li class="grid__item grid__item--link ibg">
                 <picture>
                   <source
                     srcset="
@@ -1397,7 +1474,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/business/photo-06-1x.jpg"
                     srcset="
                       img/business/photo-06-2x.jpg 2x,
@@ -1408,10 +1484,22 @@
                     draggable="false"
                   />
                 </picture>
+                <h3 class="business__title">Financial<br />Technology</h3>
+                <button class="business__modal">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="#icon_arrow" fill="#ffffff" />
+                  </svg>
+                </button>
               </li>
               <li class="grid__item ibg"></li>
 
-              <li class="grid__item ibg">
+              <li class="grid__item grid__item--link ibg">
                 <picture>
                   <source
                     srcset="
@@ -1430,7 +1518,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/business/photo-07-1x.jpg"
                     srcset="
                       img/business/photo-07-2x.jpg 2x,
@@ -1441,10 +1528,37 @@
                     draggable="false"
                   />
                 </picture>
+                <h3 class="business__title">Green<br />Finance</h3>
+                <button class="business__modal">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="#icon_arrow" fill="#ffffff" />
+                  </svg>
+                </button>
               </li>
-              <li class="grid__item grid__item--blue ibg"></li>
+              <li class="grid__item grid__item--link grid__item--blue ibg">
+                <h3 class="business__title">
+                  Ancillary<br />Service<br />Providers
+                </h3>
+                <button class="business__modal">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="#icon_arrow" fill="#ffffff" />
+                  </svg>
+                </button>
+              </li>
               <li class="grid__item ibg"></li>
-              <li class="grid__item ibg">
+              <li class="grid__item grid__item--link ibg">
                 <picture>
                   <source
                     srcset="
@@ -1463,7 +1577,6 @@
                     type="image/jpeg"
                   />
                   <img
-                    class="figures__bg"
                     src="img/business/photo-08-1x.jpg"
                     srcset="
                       img/business/photo-08-2x.jpg 2x,
@@ -1474,6 +1587,23 @@
                     draggable="false"
                   />
                 </picture>
+                <h3 class="business__title">
+                  Holding<br />Companies,<br />Corporate<br />Offices
+                </h3>
+                <p class="business__info">
+                  and other commercial non-regulated activities
+                </p>
+                <button class="business__modal">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20px"
+                    height="20px"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                  >
+                    <use href="#icon_arrow" fill="#ffffff" />
+                  </svg>
+                </button>
               </li>
             </ul>
           </div>
@@ -1492,10 +1622,9 @@
           xmlns="http://www.w3.org/2000/svg"
           width="20px"
           height="20px"
-          fill="none"
           viewBox="0 0 20 20"
         >
-          <use href="#icon_arrow" />
+          <use href="#icon_arrow" fill="#ffffff" />
         </svg>
       </button>
       <div class="footer__links">
