@@ -132,7 +132,6 @@
 
     var controls = tab.getAttribute('aria-controls');
 
-    // document.getElementById(controls).removeAttribute('hidden');
     document.getElementById(controls).classList.add('active');
 
     if (setFocus) {
@@ -148,7 +147,6 @@
     }
 
     for (p = 0; p < panels.length; p++) {
-      // panels[p].setAttribute('hidden', 'hidden');
       panels[p].classList.remove('active');
     }
   }
