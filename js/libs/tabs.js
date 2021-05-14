@@ -199,7 +199,6 @@
     return delay;
   }
 
-  //
   function focusEventHandler(event) {
     var target = event.target;
 
